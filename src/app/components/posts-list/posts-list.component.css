@@ -1,0 +1,21 @@
+.btn-outline-primary{
+    color:#0a4400;
+    border: 1px solid #0a4400;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active {
+    background-color:#0a4400;
+    color: white;
+}
+
+.btn-primary{
+    background-color: #0a4400;
+    border: 1px solid #0a4400;
+    outline: none;
+    padding: 12px 2em;
+    font-size: 20px;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: #093a00;
+}

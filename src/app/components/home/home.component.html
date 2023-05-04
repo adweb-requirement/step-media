@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="mb-5 mt-5" style="height: 70svh; position: relative;">
+    <img src="../../../assets/earth.png" alt="Earth" class="float-end" width="30%" data-aos="fade-up-left"> 
+    <h1 class="mytitle mb-5" data-aos="fade-down-right">{{ title }}</h1>
+    <p class="mydesc mb-5 ms-3" style="width: 50%;" data-aos="zoom-in">{{ description }}</p>
+    <a routerLink="/posts-list" class="btn btn-primary ms-2" data-aos="fade-up-right">View Post</a>
+  </div>
+  <div class="container">
+    <div class="mycontent">
+      <h3 style="text-align: center; padding-left: 15%; font-size: 5svh;" data-aos="fade-right">About</h3>
+      <div class="myshape" data-aos="fade-right"><h3>{{ title2 }}</h3></div>
+      <img src="../../../assets/content1.png" alt="Content 1 Image" class="float-start me-5" data-aos="fade-down-right">
+      <p data-aos="zoom-in">{{about}}</p>
+    </div>
+
+    <div class="mycontent">
+      <div class="relative">
+        <img src="../../../assets/content2.png" alt="" class="float-end img2" data-aos="fade-up-left">
+        <p data-aos="zoom-in">{{ content1 }}</p>
+      </div>
+      <div class="container-fluid mt-5"><p data-aos="zoom-in">{{ content3 }}</p></div>
+    </div>
+    <div class=" lastContent">
+      <img src="../../../assets/content3.png" alt="Last Image" data-aos="fade-up">
+        <p style="color: #0a4400; font-weight: bold; font-size: 20px; margin-top: 2em;" data-aos="fade-left">{{ lastContent }}</p>
+        <button class="btn btn-primary" style="margin-left: 1em;" routerLink="/posts-list" data-aos="zoom-in">Join us now</button>
+    </div>
+  </div>
+  
+</div>
+
+<footer class="mt-5">
+  <img src="../../../assets/logo.png" alt="Logo" width="350px" class="float-start">
+    <ul class="social-icons list-unstyled text-center">
+      <li><a href="https://www.facebook.com/" class="text-decoration-none text-light" target="_blank"><i class="bi bi-facebook text-white me-2"></i>STEP Media</a></li>
+      <li><a href="https://www.twitter.com/" class="text-decoration-none text-light" target="_blank"><i class="bi bi-twitter text-white me-2"></i>STEP Media</a></li>
+      <li><a href="https://www.instagram.com/" class="text-decoration-none text-light" target="_blank"><i class="bi bi-instagram text-white me-2"></i>STEP Media</a></li>
+      <li><a href="https://www.linkedin.com/" class="text-decoration-none text-light" target="_blank"><i class="bi bi-linkedin text-white me-2"></i>STEP Media</a></li>
+    </ul> 
+</footer>

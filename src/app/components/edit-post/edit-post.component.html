@@ -1,0 +1,34 @@
+<div class="row justify-content-center mt-5" data-aos="zoom-in">
+  <div class="col-md-6 container bg-white pb-5 pt-4 ps-4 pe-4 rounded shadow-lg">
+    <form [formGroup]="updateForm" (ngSubmit)="onUpdate()">
+      <h2 class="text-center mb-4">Edit Post</h2>
+      <div class="form-floating mb-2">
+        <input class="form-control" type="text" formControlName="author" id="authorInput" placeholder=" " required>
+        <label for="authorInput" class="color-text">Enter your name (you can use an alias)</label>
+        
+      </div>
+   
+      <div class="form-floating mb-2">
+        <input class="form-control" type="text" formControlName="title" id="titleInput" placeholder=" " required />
+        <label for="titleInput" class="color-text">Enter the title of your post</label>
+        
+      </div>
+
+      <div class="form-floating mb-2">
+        <textarea class="form-control" formControlName="description" id="descriptionInput" rows="3" style="height:100%" placeholder=" " required></textarea>
+        <label for="descriptionInput" class="color-text">Enter a short description about your post</label>
+        
+      </div>
+   
+      <div class="form-floating mb-2">
+        <textarea class="form-control" formControlName="content" id="contentInput" rows="6" style="height:100%" placeholder=" " required></textarea>
+        <label for="contentInput" class="color-text">Enter the content of your post</label>
+        
+      </div>
+   
+      <div class="form-group">
+        <button class="btn btn-primary btn-lg btn-block mt-3 form-control" type="submit">Update</button>
+      </div>
+    </form>
+  </div>
+</div>

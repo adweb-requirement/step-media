@@ -1,0 +1,11 @@
+.color-text{
+    color: gray;
+}
+.btn-primary{
+    background-color: #0a4400;
+    border: 1px solid #0a4400;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: #093a00;
+}

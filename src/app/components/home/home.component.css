@@ -1,0 +1,81 @@
+.container{
+    overflow: hidden;
+}
+.mytitle{
+    margin-top: 15svh;
+    font-size: 10svh;
+    color: #0a4400;
+}
+.mydesc{
+    font-size: 3svh;
+}
+
+.btn-primary{
+    background-color: #0a4400;
+    border: 1px solid #0a4400;
+    background-image: linear-gradient(to right, #0a4400, #169400);
+    outline: none;
+    padding: 12px 2em;
+    font-size: 20px;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-image: linear-gradient(to right, #0d5800, #1cb900b7);
+}
+
+.mycontent{
+    height: 70svh;
+    align-content: center;
+    text-align: justify;
+}
+
+.myshape{
+    background-color: #0a4400;
+    color: white;
+    width: 90%;
+    font-size: 5svh;
+    text-align: end;
+    padding-right: 30px;
+    position: relative;
+    left: -20%;
+    padding: 10px 20px 1px 0;
+}
+
+.mycontent p{
+    font-size: 3svh;
+    width: 80%;
+    margin: 4em;
+}
+
+.img2{
+    width: 35%;
+    margin-top: -30px;
+}
+
+.container-fluid{
+    background-color: #0a4400;
+    color: white;
+    position: absolute;
+    left: 0;
+}
+.container-fluid p{
+    font-size: 3svh;
+    text-align: center;
+    margin: 1em;
+    margin-left: 5em;
+}
+
+footer{
+    background-color: #0a4400;
+    padding: 2em;
+}
+
+.lastContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8svh;
+    margin-bottom: 15svh;
+}

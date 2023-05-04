@@ -1,0 +1,8 @@
+.navbar-custom {
+    background-color: #0a4400;
+}
+
+.navbar-item,
+        .navbar-link {
+            color: rgba(255, 255, 255, 0.9);
+        }
